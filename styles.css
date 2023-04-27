@@ -28,7 +28,7 @@ body{
     background-color: #AAA;
 }
 
-.tab.active {
+.activetab {
     background-color: #CCC;
 }
 
