@@ -1,33 +1,108 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js" defer></script>
-    <link href="styles.css" rel="stylesheet">
-    <title>Year Overview</title>
+    <meta charset="UTF-8" />
+    <title>at ccs 2022-2023
+    </title>
+    <style>
+        /* Style the tab content */
+        body{
+            background-color: lightblue;
+        }
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #1c112e;
+}
+
+/* Style the tab buttons */
+.tab button {
+  background-color: #8577f0;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Change background color of active tab */
+.tab button.active {
+  background-color: #340572;
+  color:#e7e2ff;
+}
+
+.tablinks {
+    font-style: bold;
+}
+    </style>
 </head>
 <body>
-    <ul class="tabs">
-        <li id="home" class="tabs_tab active">Welcome!</li>
-        <li id="two" class="tabs_tab">2022</li>
-        <li id="three" class="tabs_tab">2023</li>
-    </ul>
-
-    <div class="tab-content">
-        <div id="welcome" data-tab-content class="active">
-            <h1>Welcome</h1>
-            <p>welcome tab</p>
-        </div>
-        <div id="two" data-tab-content>
-            <h1>2022</h1>
-            <p>2022 tab</p>
-        </div>
-        <div id="three" data-tab-content>
-            <h1>2023</h1>
-            <p>2023 tab</p>
-        </div>
+    <h1>All about Isa in AT CCS '23</h1>
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'tab1')">Summer Assignments</button>
+        <button class="tablinks" onclick="openTab(event, 'tab2')">2022</button>
+        <button class="tablinks" onclick="openTab(event, 'tab3')">2023</button>
+      </div>
+      
+      <div id="tab1" class="tabcontent">
+        <h3>Summer Assignment</h3>
+        <h4> <a href=" https://replit.com/@isaamb/Isa-WAR-AT-CSS#index.html">Summer Assignment: CODE</a></h4>
+        <p>Before the school year started, we had a summer assignment based around coding some sort of card game. I chose war! I could not quite get the whole thing working, but I got some shuffling function to work (although it does not appear on screen). All in all, it was a good lesson to me that coding takes time and perseverance, and I really appreciated the opportunity to build on this knowledge after coming back to school!
+        </p>
+        <h4><a href="https://replit.com/@isaamb/Isas-AT-CCS-2nd-Summer-Project#main.py">Summer Assignment: COMP  SCI</a></h4>
+        <p>Our second summer project was supposed to be anything based around a computer science topic. Over the summer, I took an online course offered by Girls Who Code, and I really enjoyed making a chatbot within that, so I decided to use it for this project! The main purpose of the chatbot is to educate about state sponsored hacking. This project was my first glimpse at python,  which was interesting to dive into! I really liked that I had the Girls Who Code course to kind of help explore the language so I was not lost.
+        </p>
+      </div>
+      
+      <div id="tab2" class="tabcontent">
+        <h3>2022</h3>
+        <h4><a href="https://editor.p5js.org/isaamb/sketches/4ahFJ1d0e">Summer Assignment v2</a></h4>
+        <p>This was our first project after returning to school. To revamp our war games, we started working as a class (with the help of Mush) to get them working and understand how we were making them more challenging for ourselves (for instance, using pictures for the cards when we could just draw on what we needed). This really made the project so much more fun to work on and customize. My updated project moossstly works, although it does break sometimes when you reach a war. My favorite part of this was the satisfaction of cards going into their places, and then getting  to add a counter for how many cards each player won!</p>
+        <h4><a href="https://github.com/isaamb/ibdiscordbot">Discord Bot v1</a></h4>
+        <h4><a href="https://github.com/isaamb/dbot-v3">Discord Bot v2 (with Python!)</a></h4>
+        <h4><a href="https://docs.google.com/presentation/d/12YJLXoYgkat8HpzyEKWecySncmSDAzbSlD107QpIgW8/edit?usp=sharing">OpenX 1-1: Aurora Supercomputer</a></h4>
+        <p>This project  was my first exploration of  any computer science topic! I chose to explore the Aurora supercomputer because I wanted to learn what a supercomputer was to begin with, as I had read that they had applications in aerospace (which is what I am going to study in college). The notes section beneath each slide gives a bit more of the detailed information.          </p>
+        <h4><a href="https://www.youtube.com/watch?v=yY-0OmvyPdE">OpenX 2-1:  IT Army of Ukraine vs Killnet</a></h4>
+        <p>For my second project, I really wanted to do some kind of video like I’d seen on YouTube that presents information through drawings. And so, I did! I decided to focus on an issue that I had learned about just recently via an email from The Hustle. The email told me about these cyberwarfare groups, particularly in Ukraine and Russia as their conflict was continuing. I wanted to dive deeper into what these groups would do and how they came about as a result of Russia’s invasion, and how Ukraine’s groups were protecting them.
+        </p>
+        <h4><a href="https://docs.google.com/presentation/d/1zu8RfXzy1RB34rhAKw6ORbwYqybVoD5nar0l-e56VZw/edit?usp=sharing ">FreeCode 2-1: Kaggle</a></h4>
+        <p>There is somewhat of a description of my process for this as you move through the notes within each slide. Basically, I wanted to learn about machine learning, and found out about this website thanks to Liam. It was a very frustrating process, so I ended up changing goals and learning more that way than I was from before.        </p>
+ 
     </div>
+      
+      <div id="tab3" class="tabcontent">
+        <h3>2023</h3>
+        <h4><a href="https://drive.google.com/file/d/1OhQ0ft6p_OOl-tYoaaJbEw6g9Lu2f3dX/view?usp=sharing">OpenX 2-2: Podcast about Jukebox</a></h4>
+        <p><a href="https://docs.google.com/document/d/10fdCSGgAgCpNDNiCW6Ayf3sZt0_2BC2qQLNMaJ1Dt08/edit?usp=sharing">Planning doc</a> for Jukebox project</p>
+        <h4><a href=" https://github.com/isaamb/esp32_is_hard">FreeCode 2-2: ESP-32</a></h4>
+        <h4><a href="https://docs.google.com/document/d/1p2w0zdjyxUxTz7JGPIQxgnbLFivwp2y2v0vVImlO56E/edit?usp=sharing ">AP Prep</a></h4>
+        <p>To prepare for the AP CS Exam, I started with following the video review series made by Ajay Gandecha (https://www.youtube.com/watch?v=AnTD7U_zGkg&list=PLfpeXtDSa8rUl8S9NtbPKlg0ikc-rw-LC&index=2). At the end of each unit, there would be a practice test that I could take that included multiple choice and free response questions. I did this for each unit and tracked how I did on each quiz to see what I understood and what I needed to go back and review. After I went through every unit, I took a practice exam, and ended up not doing as well as expected based on my review (close to a 55% on multiple choice, for context). I realized that the videos missed out on a lot of the details since the videos were meant to be review. I did some practice FRQs and studied more for the things I missed. Ultimately, I got into Georgia Tech and later found out I would not get credit for the AP CSA exam for my major and thus ultimately decided to not take the exam to better focus on physics and calc (that I can get credit for), but now I think I’m well prepared for any Java beginnings next year!</p>
+      </div>
+      <script>
+        // Set the first tab as the default active tab
+document.getElementById("tab1").style.display = "block";
+document.getElementsByClassName("tablinks")[0].className += " active";
+
+// Function to switch between tabs
+function openTab(evt, tabName) {
+  var i, tabcontent, tablinks;
+
+  // Hide all tab content
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Remove active class from all tab buttons
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the clicked tab content and set the clicked tab button as active
+  document.getElementById(tabName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+      </script>
 </body>
 </html>
