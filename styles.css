@@ -1,8 +1,8 @@
-[data-tab-content] {
+[data-tab-info] {
     display: none;
 }
 
-.active[data-tab-content] {
+.active[data-tab-info] {
     display: block;
 }
 
@@ -28,7 +28,7 @@ body{
     background-color: #AAA;
 }
 
-.tab.active {
+.active {
     background-color: #CCC;
 }
 
